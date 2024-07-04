@@ -1,8 +1,8 @@
 # Diffusion Policy
 
 ## Installation
-### 🖥️ Simulation
-To reproduce our simulation benchmark results, install our conda environment on a Linux machine with Nvidia GPU. On Ubuntu 20.04 you need to install the following apt packages for mujoco:
+
+On Ubuntu 20.04 you need to install the following apt packages for mujoco:
 ```console
 $ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
