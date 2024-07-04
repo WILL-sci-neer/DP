@@ -17,15 +17,6 @@ but you can use conda as well:
 $ conda env create -f conda_environment.yaml
 ```
 
-Software:
-* Ubuntu 20.04.3 (tested)
-* Mujoco dependencies: 
-`sudo apt install libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf`
-* [RealSense SDK](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md)
-* Spacemouse dependencies: 
-`sudo apt install libspnav-dev spacenavd; sudo systemctl start spacenavd`
-* Conda environment `mamba env create -f conda_environment_real.yaml`
-
 ## 🖥️ Reproducing Simulation Benchmark Results 
 ### Download Training Data
 Under the repo root, create data subdirectory:
