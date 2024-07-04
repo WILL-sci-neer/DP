@@ -1,4 +1,4 @@
-name: robodiff
+name: dp
 channels:
   - pytorch
   - pytorch3d
