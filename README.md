@@ -1,5 +1,3 @@
-# Diffusion Policy
-
 ## Installation
 
 On Ubuntu 20.04 you need to install the following apt packages for mujoco:
