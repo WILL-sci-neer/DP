@@ -16,9 +16,16 @@ We recommend [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) i
 mamba env create -f conda_environment.yaml
 ```
 
-### Running
+## Training
+
+Determine the dataset path in config/task. For example, for square_image_abs.yaml, determine:
+```console
+dataset_path: &dataset_path path/to/image_abs.hdf5
+```
+
 Activate conda environment and login to [wandb](https://wandb.ai) (if you haven't already):
 ```console
-[diffusion_policy]$ conda activate dp_sim
-(robodiff)[diffusion_policy]$ wandb login
+conda activate dp_sim
+wandb login
+python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
