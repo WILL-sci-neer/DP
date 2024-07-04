@@ -1,4 +1,4 @@
-name: dp
+name: dp_sim
 channels:
   - pytorch
   - pytorch3d
