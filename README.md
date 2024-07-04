@@ -17,28 +17,6 @@ but you can use conda as well:
 $ conda env create -f conda_environment.yaml
 ```
 
-## 🖥️ Reproducing Simulation Benchmark Results 
-### Download Training Data
-Under the repo root, create data subdirectory:
-```console
-[diffusion_policy]$ mkdir data && cd data
-```
-
-Download the corresponding zip file from [https://diffusion-policy.cs.columbia.edu/data/training/](https://diffusion-policy.cs.columbia.edu/data/training/)
-```console
-[data]$ wget https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip
-```
-
-Extract training data:
-```console
-[data]$ unzip pusht.zip && rm -f pusht.zip && cd ..
-```
-
-Grab config file for the corresponding experiment:
-```console
-[diffusion_policy]$ wget -O image_pusht_diffusion_policy_cnn.yaml https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/config.yaml
-```
-
 ### Running for a single seed
 Activate conda environment and login to [wandb](https://wandb.ai) (if you haven't already).
 ```console
