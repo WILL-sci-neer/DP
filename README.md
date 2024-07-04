@@ -17,8 +17,6 @@ but you can use conda as well:
 $ conda env create -f conda_environment.yaml
 ```
 
-The `conda_environment_macos.yaml` file is only for development on MacOS and does not have full support for benchmarks.
-
 Software:
 * Ubuntu 20.04.3 (tested)
 * Mujoco dependencies: 
