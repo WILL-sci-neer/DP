@@ -16,11 +16,6 @@ We recommend [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) i
 $ mamba env create -f conda_environment.yaml
 ```
 
-but you can use conda as well: 
-```console
-$ conda env create -f conda_environment.yaml
-```
-
 ### Running for a single seed
 Activate conda environment and login to [wandb](https://wandb.ai) (if you haven't already).
 ```console
