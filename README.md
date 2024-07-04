@@ -19,6 +19,6 @@ mamba env create -f conda_environment.yaml
 ### Running
 Activate conda environment and login to [wandb](https://wandb.ai) (if you haven't already):
 ```console
-[diffusion_policy]$ conda activate dp
+[diffusion_policy]$ conda activate dp_sim
 (robodiff)[diffusion_policy]$ wandb login
 ```
