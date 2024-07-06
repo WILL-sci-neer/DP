@@ -18,7 +18,7 @@ mamba env create -f conda_environment.yaml
 
 ## Training
 
-Set the dataset path in the configuration file located in `config/task`. For example, for `square_image_abs.yaml`, set:
+Set the dataset path in the configuration file located in `diffusion_policy/config/task`. For example, for `square_image_abs.yaml`, set:
 ```console
 dataset_path: &dataset_path path/to/image_abs.hdf5
 ```
