@@ -18,14 +18,19 @@ mamba env create -f conda_environment.yaml
 
 ## Training
 
-Determine the dataset path in config/task. For example, for square_image_abs.yaml, determine:
+Set the dataset path in the configuration file located in `config/task`. For example, for `square_image_abs.yaml`, set:
 ```console
 dataset_path: &dataset_path path/to/image_abs.hdf5
 ```
 
-Activate conda environment and login to [wandb](https://wandb.ai) (if you haven't already):
+Activate the conda environment and login to wandb (if you haven't already):
 ```console
 conda activate dp_sim
 wandb login
 python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
+Run
+```console
+python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
+```
+The success rate can be viewed under `test/mean_score` on the wandb page.
