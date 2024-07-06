@@ -27,7 +27,6 @@ Activate the conda environment and login to wandb (if you haven't already):
 ```console
 conda activate dp_sim
 wandb login
-python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
 Run:
 ```console
