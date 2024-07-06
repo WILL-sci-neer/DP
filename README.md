@@ -29,7 +29,7 @@ conda activate dp_sim
 wandb login
 python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
-Run
+Run:
 ```console
 python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
