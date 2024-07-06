@@ -11,7 +11,7 @@ git clone ...
 cd dp_simulation
 ```
 
-We recommend [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) instead of the standard anaconda distribution for faster installation: 
+We recommend Mambaforge instead of the standard anaconda distribution for faster installation: 
 ```console
 mamba env create -f conda_environment.yaml
 ```
