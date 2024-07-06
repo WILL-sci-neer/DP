@@ -8,7 +8,7 @@ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 Clone the repository:
 ```bash
 git clone ...
-cd dp_simulation
+cd dp_sim
 ```
 
 We recommend Mambaforge instead of the standard anaconda distribution for faster installation: 
