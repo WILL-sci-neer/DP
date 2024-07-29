@@ -1,11 +1,11 @@
 ## Installation
 
-On Ubuntu 20.04 you need to install the following apt packages for mujoco:
+1. Install dependencies for mujoco:
 ```console
-sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
+$ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
 
-We recommend Mambaforge instead of the standard anaconda distribution for faster installation: 
+2. Install dp_sim
 ```console
 $ cd dp_sim
 $ mamba env create -f conda_environment.yaml
