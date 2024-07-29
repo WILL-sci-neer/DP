@@ -28,3 +28,11 @@ Run:
 python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
 The success rate can be viewed under `test/mean_score` on the wandb page.
+
+## Training (data augmentation)
+```console
+$ export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/robosuite
+$ export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/robosuite-task-zoo
+$ export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/mimicgen
+```
+
