@@ -1,12 +1,12 @@
 ## Installation
 
-### 1. Install dependencies for mujoco:
+1. Install dependencies for mujoco:
 
 ```console
 sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf
 ```
 
-### 2. Install dp_sim
+2. Install dp_sim
 
 ```console
 cd dp_sim
