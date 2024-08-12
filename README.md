@@ -51,10 +51,12 @@ with
 ```console
 import robomimic.models.obs_core as rmbn
 ```
-```console
-python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
-```
+
 - Add (in the workspace py file)
 ```console
 from diffusion_policy.env.robosuite import nut_assembly
+```
+- Run
+```console
+python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 ```
