@@ -36,13 +36,25 @@ python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
 The success rate can be viewed under `test/mean_score` on the wandb page.
 
 ## Training (Data Augmentation)
-
+- Setting
 ```console
 export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/robosuite
 export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/robosuite-task-zoo
 export PYTHONPATH=$PYTHONPATH:/home/clear/dp_sim/mimicgen
 ```
 
+- Replace 
+```console
+import robomimic.models.base_nets as rmbn
+```
+with 
+```console
+import robomimic.models.obs_core as rmbn
+```
 ```console
 python train.py --config-name=train_diffusion_transformer_hybrid_workspace.yaml
+```
+- Add (in the workspace py file)
+```console
+from diffusion_policy.env.robosuite import nut_assembly
 ```
